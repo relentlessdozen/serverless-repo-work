@@ -2,5 +2,5 @@
 
 module.exports.greet = (event, context, callback) => {
   console.log(JSON.stringify(event));
-  callback(null, { message: "Hybrid Cloud Club intiation function!" });
+  callback(null, { message: "Hybrid Cloud Club initiation function!" });
 };
